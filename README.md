@@ -1,55 +1,123 @@
-# Credit-card-analysis-dashboard
+# 💳 Credit Card Analysis Dashboard
 
-Objective:
-To analyze customer credit card transaction behavior and demographics to optimize revenue generation, improve customer satisfaction, and enhance targeted marketing strategies for different income groups, job categories, and regions.
+## 📌 Objective
+To analyze customer credit card transaction behavior and demographics in order to:
+- Optimize revenue generation  
+- Improve customer satisfaction  
+- Enable targeted marketing strategies across income groups, job categories, and regions  
 
-Steps Demanded to Clean Data in Excel
-1)Removed Duplicates:- Removed Duplicates to eliminate duplicate entries.
+---
 
-2)Handle Missing Values:- Used Filter to find blank cells and filled them with appropriate values.
+## 📂 Dataset Overview
+The dataset includes:
+- Customer demographics (age, income group, education, marital status, job category, state)
+- Credit card details (card category, transaction method, spending category)
+- Revenue and interest earned
+- Quarterly transaction data
 
-3)Correct Data Formatting:- Converted dates to proper date format and numbers to number/currency format to ensure consistency.
+---
 
+## 🧹 Data Cleaning (Excel)
 
-* Key Insights from Credit Card Transactions:
-  
-1) Revenue & Transactions: Total revenue is $55M, with the highest transactions in Q3 (166.6K transactions) and the lowest in Q4 (161.6K transactions).
+Data cleaning was performed using **Microsoft Excel** to ensure accuracy and consistency.
 
-2) Card Category Contribution: Blue Cards dominate with 83.3% of total revenue, while Platinum Cards contribute only 2%.
+### Steps Followed
+1. **Removed Duplicates**  
+   - Used *Remove Duplicates* to eliminate repeated records.
 
-3) Transaction Methods: Swipe transactions generate the most revenue (63.6%), followed by Chip (30.9%) and Online (5.5%).
+2. **Handled Missing Values**  
+   - Applied filters to identify blank cells.
+   - Filled missing values with appropriate logical values based on context.
 
-4) Top Spending Categories: Bills (25.4%) lead, followed by Entertainment (18.2%), Fuel & Grocery (16.3% each).
+3. **Corrected Data Formatting**  
+   - Converted date fields to proper date format.
+   - Standardized numerical fields to number and currency formats.
 
-5) Customer Segmentation: Businessmen (30%+ of total revenue) and Graduates (40%) are the highest spenders, while Doctorates contribute the least (2%).
+---
 
+## 📊 Dashboard 1: Credit Card Transaction Analysis
 
-* Key Insights from csutomer report dahsboard:
+### Key Insights
 
-1) Total Revenue: $22M, with 100% from high-income customers.
+#### 1. Revenue & Transactions
+- **Total Revenue:** \$55M  
+- **Highest Transactions:** Q3 – 166.6K  
+- **Lowest Transactions:** Q4 – 161.6K  
 
-2) Top States: NY, TX, CA lead with $5M each (22.7%).
+#### 2. Card Category Contribution
+- **Blue Cards:** 83.3% of total revenue  
+- **Platinum Cards:** 2% of total revenue  
 
-3) Job Contribution: Businessmen generate $7.2M (32.7%).
+#### 3. Transaction Methods
+- **Swipe:** 63.6%  
+- **Chip:** 30.9%  
+- **Online:** 5.5%  
 
-4) Interest Earned: 40-50 age group contributes the most.
+#### 4. Top Spending Categories
+- Bills – 25.4%  
+- Entertainment – 18.2%  
+- Fuel – 16.3%  
+- Grocery – 16.3%  
 
-5) Marital Status: Married customers lead with $11M (50%).
+#### 5. Customer Segmentation
+- **Businessmen:** 30%+ of total revenue  
+- **Graduates:** ~40% contribution  
+- **Doctorates:** 2% contribution  
 
+---
 
-* Recommendations based on analysis
- 
-1) Expand Targeting for Mid & Low-Income Segments:- Since 100% of revenue comes from high-income customers, introducing tailored products for mid and low-income groups could unlock new revenue streams.
+## 📊 Dashboard 2: Customer Demographics Analysis
 
-2) Enhance Offers for Businessmen & White-Collar Professionals:- Businessmen (32.7%) and white-collar professionals (25.9%) are top spenders. Offer exclusive rewards, cashback, or premium services to retain and grow this segment.
+### Key Insights
 
-3)Optimize Regional Marketing Strategies:- NY, TX, CA contribute the most revenue. More personalized marketing and region-specific promotions can further increase engagement in these states.
+#### 1. Income-Based Revenue
+- **Total Revenue:** \$22M  
+- **100% revenue from High-Income customers**
 
-4)Focus on Interest-Based Revenue from the 40-50 Age Group:- This group generates the most interest income. Providing customized loan offers, installment plans, or high-credit-limit options can enhance profitability.
+#### 2. Top Revenue-Contributing States
+- New York – \$5M  
+- Texas – \$5M  
+- California – \$5M  
+- Combined contribution: 22.7%
 
-5)Leverage Marital Status Insights for Better Personalization:- Married customers contribute 50% of revenue. Introduce family-oriented benefits, joint credit cards, and exclusive perks for this segment to boost loyalty.
+#### 3. Job Category Contribution
+- **Businessmen:** \$7.2M (32.7%)  
+- **White-collar professionals:** 25.9%
 
+#### 4. Interest Earned by Age Group
+- **40–50 age group** contributes the highest interest income
 
+#### 5. Marital Status Contribution
+- **Married customers:** \$11M (50%)
 
+---
 
+## 📈 Recommendations
 
+1. **Expand to Mid & Low-Income Segments**  
+   - Introduce entry-level cards and controlled credit limits to reduce dependency on high-income users.
+
+2. **Enhance Offers for Businessmen & Professionals**  
+   - Provide premium rewards, cashback, and loyalty-based benefits.
+
+3. **Optimize Regional Marketing**  
+   - Focus personalized campaigns on high-revenue states (NY, TX, CA).
+
+4. **Leverage 40–50 Age Group for Interest Revenue**  
+   - Offer installment plans, balance transfers, and pre-approved loans.
+
+5. **Personalize for Married Customers**  
+   - Introduce family-oriented benefits, joint cards, and add-on card programs.
+
+---
+
+## 🛠 Tools & Skills Used
+- Microsoft Excel (Data Cleaning, Pivot Tables, Analysis)
+- Dashboard Design
+- Business & Revenue Analysis
+- Customer Segmentation
+
+---
+
+## 📌 Key Takeaway
+This project demonstrates the ability to clean financial data, analyze customer behavior, and translate insights into actionable business strategies using dashboards.
